@@ -1,7 +1,7 @@
 import React from "react";
 // import Rating from "../ui/Rating";
 import { IoEllipsisHorizontal } from "react-icons/io5";
-import { Button } from "../ui/button";
+import { Button } from "..;
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { Review } from "@/types/review.types";
 import { cn } from "@/lib/utils";
