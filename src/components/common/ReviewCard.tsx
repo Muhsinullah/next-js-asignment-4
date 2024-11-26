@@ -1,7 +1,7 @@
 import React from "react";
 // import Rating from "../ui/Rating";
 import { IoEllipsisHorizontal } from "react-icons/io5";
-import { Button } from "..;
+// import { Button } from "../layout/Navbar/TopNavbar/CartBtn;
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { Review } from "@/types/review.types";
 import { cn } from "@/lib/utils";
@@ -35,13 +35,8 @@ const ReviewCard = ({
           allowFraction
           SVGclassName="inline-block"
           size={23}
-          readonly
-        /> */}
-        {isAction && (
-          <Button variant="ghost" size="icon">
-            <IoEllipsisHorizontal className="text-black/40 text-2xl" />
-          </Button>
-        )}
+          readonly */}
+        {/* /> */}
       </div>
       <div className="flex items-center mb-2 sm:mb-3">
         <strong className="text-black sm:text-xl mr-1">{data.user}</strong>
